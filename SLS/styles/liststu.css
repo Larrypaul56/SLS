@@ -1,0 +1,135 @@
+body{
+    background-color: #16123f;
+    font-family: 'Spartan';
+    color: #ABD699;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 1200px;
+    grid-template-rows: 300px 400px 100px;
+    gap: 10px;
+    justify-content: center;
+    align-content: flex-start;
+    height: 100vh;
+
+}
+.back{
+    background-color: #16123f;
+}
+.header{
+grid-column-start: 1;
+grid-column-end: 3;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+/* .sidebar{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    
+    
+    }
+    .sideitems{
+        background-color: #ABD699;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+
+        
+        
+    } */
+.main{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        display: flex;
+       flex-direction: column;
+       align-items: flex-start;
+       
+    }
+.footer{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    text-align: center;
+    background-color: #ABD699;
+    display: flex;
+    color: #16123f;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    }
+/* .header{
+    min-height: 200px;
+    display:flex;
+    justify-content: space-evenly;
+    
+} */
+.links{
+    /* padding: 5px;
+    text-decoration: none;
+    color: #ABD699;
+    font-weight: bolder; */
+    border-radius: 5px;
+    font: bold 11px Arial;
+    text-decoration: none;
+    background-color: #EEEEEE;
+    color: #333333;
+    padding: 2px 6px 2px 6px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+}
+
+.info{
+    font-size: 30px;
+    font-family: 'Spartan';
+   
+}
+/* .echo-image{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+} */
+input{
+    font-family: 'Spartan';
+    text-align: center;
+    border-radius: 3.5px;
+    height: 20px;
+    width: auto;
+
+}
+
+
+.image{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.echo{
+    font-family: 'Spartan';
+    font-size: 30.px;
+    color: aliceblue;
+    font-weight: bolder;
+    padding: 20px;
+}
+.heading{
+    font-size: 30px;
+    text-decoration: underline;
+}
+.head{
+    display: flex;
+}
